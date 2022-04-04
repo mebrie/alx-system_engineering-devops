@@ -1,3 +1,4 @@
 #!/bin/bash
 ls -l .vim | grep -c ^d
 find .vim/ -maxdepth 1 -type d
+find . -mindepth 1 -maxdepth 1 -type d | wc -l
